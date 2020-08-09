@@ -1,0 +1,92 @@
+{
+  "navitems":[
+        {
+          "linkText": "About",
+          "parentLink": "/about",
+          "menu": false,
+          "submenu": []
+        },{
+          "linkText": "AngularJS SPA",
+          "parentLink": "/angularjs-spa",
+          "menu": false,
+          "submenu": []
+        },{
+          "linkText": "Codepens",
+          "parentLink": "",
+          "menu": false,
+          "submenu": [
+            {
+              "childtext": "NASA API",
+              "link": "https://codepen.io/UX_Dev/live/5c88e99d0e9a03834dc2d113c24f9daa"
+            },
+            { 
+              "childtext": "Responsive Video Player",
+              "link": "https://codepen.io/UX_Dev/pen/LmxqKa"
+            },
+            {
+              "childtext": "Tabs",
+              "link": "https://codepen.io/UX_Dev/pen/yzejjQ"
+            },
+            {
+              "childtext": "JS Quiz",
+              "link": "https://codepen.io/UX_Dev/pen/xoLQrY"
+            },
+            {
+              "childtext": "HAML code sample",
+              "link":"https://codepen.io/UX_Dev/pen/2788684ea795e215e9dff54bd5abc66b"
+            },{
+              "childtext": "Dynamic banner",
+              "link": "https://codepen.io/UX_Dev/pen/RLLmZL"
+            }
+          ]
+        },{
+          "linkText": "CSS Animation",
+          "parentLink": "",
+          "menu": false,
+          "submenu": [
+            {
+              "childtext": "3D Card Flip",
+              "link": "https://codepen.io/UX_Dev/pen/jGYXYy"
+            }
+          ]
+        },{
+          "linkText": "Navigation",
+          "parentLink": "",
+          "menu": false,
+          "submenu": [
+            { 
+              "childtext": "Pure CSS Menu",
+              "link": "https://codepen.io/UX_Dev/pen/VMwxmQ"
+            }, { 
+              "childtext": "User Selection",
+              "link": "https://codepen.io/UX_Dev/live/ZXYLyV"
+            },{
+              "childtext": "In Page Navigation",
+              "link": "https://codepen.io/UX_Dev/pen/JjogojN"
+            },
+            { 
+              "childtext": "Progress Navigation Bar",
+              "link": "https://codepen.io/UX_Dev/pen/xXOapm"
+            }
+          ]
+        },{
+          "linkText": "Angular 8",
+          "parentLink": "",
+          "menu": false,
+          "submenu": [
+            {
+              "childtext": "Nested Routing",
+              "link": "https://stackblitz.com/edit/angular-8-nested-routing"
+            },
+            {
+              "childtext": "Modular Routing",
+              "link": "https://stackblitz.com/edit/module-to-module-routing"
+            },
+            {
+              "childtext":"JSON Line Chart",
+              "link": "https://stackblitz.com/edit/line-chart-component-json"
+            }
+          ]
+        }
+  ]
+}
