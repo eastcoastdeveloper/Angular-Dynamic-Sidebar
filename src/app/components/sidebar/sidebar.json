@@ -16,37 +16,24 @@
           "menu": false,
           "submenu": [
             {
-              "childtext": "NASA API",
+              "childtext": "Link 1",
               "link": "https://codepen.io/UX_Dev/live/5c88e99d0e9a03834dc2d113c24f9daa"
             },
             { 
-              "childtext": "Responsive Video Player",
+              "childtext": "Link 2",
               "link": "https://codepen.io/UX_Dev/pen/LmxqKa"
             },
             {
-              "childtext": "Tabs",
+              "childtext": "Link 3",
               "link": "https://codepen.io/UX_Dev/pen/yzejjQ"
             },
             {
-              "childtext": "JS Quiz",
+              "childtext": "Link 4",
               "link": "https://codepen.io/UX_Dev/pen/xoLQrY"
             },
             {
-              "childtext": "HAML code sample",
+              "childtext": "Link 5",
               "link":"https://codepen.io/UX_Dev/pen/2788684ea795e215e9dff54bd5abc66b"
-            },{
-              "childtext": "Dynamic banner",
-              "link": "https://codepen.io/UX_Dev/pen/RLLmZL"
-            }
-          ]
-        },{
-          "linkText": "CSS Animation",
-          "parentLink": "",
-          "menu": false,
-          "submenu": [
-            {
-              "childtext": "3D Card Flip",
-              "link": "https://codepen.io/UX_Dev/pen/jGYXYy"
             }
           ]
         },{
