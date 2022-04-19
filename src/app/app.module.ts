@@ -10,18 +10,14 @@ import { AboutModule } from './modules/about/about.module';
 import { AngularJSModule } from './modules/angularjs/angularjs.module';
 
 @NgModule({
-  imports:      [
+  imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
     AboutModule,
-    AngularJSModule
+    AngularJSModule,
   ],
-  declarations: [
-    AppComponent, 
-    HeaderComponent,
-    SidebarComponent,
-    ],
-  bootstrap:    [ AppComponent ]
+  declarations: [AppComponent, HeaderComponent, SidebarComponent],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

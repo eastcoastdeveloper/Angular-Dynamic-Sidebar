@@ -1,4 +1,4 @@
-import { Component, Injectable, VERSION } from "@angular/core";
+import { Component, Injectable } from '@angular/core';
 
 // Get Window Size, step 1
 function _window(): any {
@@ -14,12 +14,12 @@ export class WindowRef {
 }
 
 @Component({
-  selector: "my-app",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"],
+  selector: 'my-app',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
   host: {
-    "(window:resize)": "onWindowResize($event)"
-  }
+    '(window:resize)': 'onWindowResize($event)',
+  },
 })
 export class AppComponent {
   // Get Window Size, step 3

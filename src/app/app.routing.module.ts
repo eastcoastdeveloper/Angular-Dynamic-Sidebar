@@ -4,20 +4,25 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: 'about',
-    loadChildren: () => import('./modules/about/about.module').then(m =>m.AboutModule)
-  },{
+    loadChildren: () =>
+      import('./modules/about/about.module').then((m) => m.AboutModule),
+  },
+  {
     path: 'angularjs-spa',
-    loadChildren: () => import('./modules/angularjs/angularjs.module').then(m =>m.AngularJSModule)
-  }, {
+    loadChildren: () =>
+      import('./modules/angularjs/angularjs.module').then(
+        (m) => m.AngularJSModule
+      ),
+  },
+  {
     path: '',
     redirectTo: 'about',
-    pathMatch: 'full'
-  }
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {
-}
+export class AppRoutingModule {}
