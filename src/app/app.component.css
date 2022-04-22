@@ -2,7 +2,7 @@ p {
   font-family: Lato;
 }
 #angular-spa {
-  height: 100%;
+  height: calc(100vh - 37px);
   display: flex;
 }
 #sidebar {

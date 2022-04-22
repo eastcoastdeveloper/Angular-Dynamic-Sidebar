@@ -1,3 +1,20 @@
+html,
+body {
+  margin: 0;
+  height: 100vh;
+}
+.website {
+  font: normal 14px sans-serif;
+  letter-spacing: 0.5px;
+  display: block;
+  cursor: pointer;
+  background-color: #313b3f;
+  color: #fcdb42;
+  padding: 10px;
+  text-decoration: none;
+  text-align: right;
+  border-bottom: 1px solid white;
+}
 .dark-blue-bg {
   background-color: #161a26;
 }
@@ -6,11 +23,6 @@
 }
 .light-blue-bg {
   background-color: #03658c;
-}
-html,
-body {
-  margin: 0;
-  height: 100vh;
 }
 body {
   background-color: rgba(211, 211, 211, 0.2);
@@ -33,22 +45,4 @@ ul {
   font: normal 10pt sans-serif;
   line-height: 20px;
   margin: 0;
-}
-.dashboard-link {
-  font: normal 14px sans-serif;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: lightgrey;
-  border-top: 1px solid black;
-  padding: 10px;
-}
-a {
-  text-decoration: none;
-  color: black;
-  font-style: italic;
-}
-.dashboard-link a:hover {
-  color: red;
 }
