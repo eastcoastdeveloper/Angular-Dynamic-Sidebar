@@ -1,14 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import * as data from './sidebar.json';
+import { SidebarModel } from './sidebar.model';
 
 @Component({
   selector: 'app-sidebar',
   templateUrl: './sidebar.component.html',
   styleUrls: ['./sidebar.component.scss'],
 })
-export class SidebarComponent implements OnInit {
+export class SidebarComponent {
   data: any = data;
-  result: any = [];
+  result: SidebarModel[] = [];
 
   constructor() {
     for (let key in data.navitems) {
@@ -17,8 +18,6 @@ export class SidebarComponent implements OnInit {
       }
     }
   }
-
-  ngOnInit() {}
 
   ddToggle(i) {
     this.result[i].menu = !this.result[i].menu;
