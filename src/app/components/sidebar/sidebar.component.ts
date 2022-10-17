@@ -28,6 +28,5 @@ export class SidebarComponent {
 
   ddToggle(i:number) {
     this.result[i].menu = !this.result[i].menu;
-    console.log(this.result[i].menu);
   }
 }
