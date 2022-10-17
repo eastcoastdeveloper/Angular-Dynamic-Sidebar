@@ -17,9 +17,16 @@ export class SidebarComponent {
         this.result.push(data.navitems[key]);
       }
     }
+
+    /* Real World
+    ** this._http.get<SidebarModel[]>("sidebar.json")
+    ** .subscribe((res) => {
+    **   this.result = res;
+    ** });
+    */
   }
 
-  ddToggle(i) {
+  ddToggle(i:number) {
     this.result[i].menu = !this.result[i].menu;
     console.log(this.result[i].menu);
   }
