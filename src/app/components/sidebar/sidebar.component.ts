@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import * as data from './sidebar.json';
 import { SidebarModel } from './sidebar.model';
@@ -11,22 +12,19 @@ export class SidebarComponent {
   data: any = data;
   result: SidebarModel[] = [];
 
-  constructor() {
+  constructor(private _http: HttpClient) {
     for (let key in data.navitems) {
       if (data.navitems.hasOwnProperty(key)) {
         this.result.push(data.navitems[key]);
       }
     }
 
-    /* Real World
-    ** this._http.get<SidebarModel[]>("sidebar.json")
-    ** .subscribe((res) => {
-    **   this.result = res;
-    ** });
-    */
+    this._http.get<SidebarModel[]>('sidebar.json').subscribe((res) => {
+      this.result = res;
+    });
   }
 
-  ddToggle(i:number) {
+  ddToggle(i: number) {
     this.result[i].menu = !this.result[i].menu;
   }
 }
