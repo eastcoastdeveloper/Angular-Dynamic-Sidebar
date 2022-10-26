@@ -19,8 +19,9 @@ export class SidebarComponent {
       }
     }
 
-    this._http.get<SidebarModel[]>('sidebar.json').subscribe((res) => {
+    this._http.get<SidebarModel[]>('src/assets/sidebar.json').subscribe((res) => {
       this.result = res;
+      console.log(this.result)
     });
   }
 
