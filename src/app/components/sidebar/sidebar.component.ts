@@ -13,7 +13,6 @@ export class SidebarComponent {
   constructor(private _http: HttpClient) {
     this._http.get<SidebarModel[]>('assets/sidebar.json').subscribe((res) => {
       this.result = res;
-      console.log(this.result);
     });
   }
 
