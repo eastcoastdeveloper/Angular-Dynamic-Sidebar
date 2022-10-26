@@ -1,5 +1,4 @@
-{
-  "navitems": [
+
     {
       "linkText": "About",
       "parentLink": "/about",
@@ -81,5 +80,3 @@
         }
       ]
     }
-  ]
-}
