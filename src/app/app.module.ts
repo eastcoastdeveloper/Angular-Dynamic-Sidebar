@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { AboutModule } from './modules/about/about.module';
-import { AngularJSModule } from './modules/angularjs/angularjs.module';
+// import { AngularJSModule } from './modules/angularjs/angularjs.module';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -16,7 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     AppRoutingModule,
     AboutModule,
-    AngularJSModule,
+    // AngularJSModule,
     HttpClientModule
   ],
   declarations: [AppComponent, HeaderComponent, SidebarComponent],

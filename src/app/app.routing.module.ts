@@ -7,13 +7,13 @@ const routes: Routes = [
     loadChildren: () =>
       import('./modules/about/about.module').then((m) => m.AboutModule),
   },
-  {
-    path: 'angularjs-spa',
-    loadChildren: () =>
-      import('./modules/angularjs/angularjs.module').then(
-        (m) => m.AngularJSModule
-      ),
-  },
+  // {
+  //   path: 'angularjs-spa',
+  //   loadChildren: () =>
+  //     import('./modules/angularjs/angularjs.module').then(
+  //       (m) => m.AngularJSModule
+  //     ),
+  // },
   {
     path: '',
     redirectTo: 'about',
