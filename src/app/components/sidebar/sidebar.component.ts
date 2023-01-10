@@ -9,6 +9,7 @@ import { SidebarModel } from './sidebar.model';
 })
 export class SidebarComponent {
   result: SidebarModel[] = [];
+  expandAll: boolean = false;
 
   constructor(private _http: HttpClient) {
     this._http.get<SidebarModel[]>('assets/sidebar.json').subscribe((res) => {
@@ -18,5 +19,12 @@ export class SidebarComponent {
 
   ddToggle(i: number) {
     this.result[i].menu = !this.result[i].menu;
+  }
+
+  toggleAll() {
+    this.expandAll = !this.expandAll;
+    for (var i = 0; i < this.result.length; i++) {
+      this.result[i].menu = this.expandAll;
+    }
   }
 }
