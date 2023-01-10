@@ -2,7 +2,7 @@
   font: normal 11pt sans-serif;
   box-sizing: border-box;
   position: relative;
-  margin: 25px 0 0 25px;
+  margin: 40px auto 0 auto;
 
   .expand-all {
     font-size: 12px;
@@ -87,13 +87,4 @@
 
 .show-menu {
   max-height: 1000px !important;
-}
-
-.right-border {
-  background-color: #03658c;
-  position: absolute;
-  width: 1px;
-  height: calc(100% - 50px);
-  right: 0;
-  top: 50px;
 }

@@ -1,7 +1,6 @@
 html,
 body {
   margin: 0;
-  height: 100vh;
 }
 .website {
   font: normal 14px sans-serif;
@@ -13,36 +12,4 @@ body {
   padding: 10px;
   text-decoration: none;
   text-align: right;
-  border-bottom: 1px solid white;
-}
-.dark-blue-bg {
-  background-color: #161a26;
-}
-.med-blue-bg {
-  background-color: #023059;
-}
-.light-blue-bg {
-  background-color: #03658c;
-}
-body {
-  background-color: rgba(211, 211, 211, 0.2);
-}
-h4 {
-  margin: 0 0 10px 0;
-  font: normal 16px sans-serif;
-}
-p,
-a {
-  font: normal 13px sans-serif;
-  margin: 0;
-  text-decoration: none;
-}
-ul {
-  font: normal 13px sans-serif;
-  line-height: 22px;
-}
-.description {
-  font: normal 10pt sans-serif;
-  line-height: 20px;
-  margin: 0;
 }
