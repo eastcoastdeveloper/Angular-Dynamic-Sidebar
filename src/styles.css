@@ -3,12 +3,14 @@ body {
   margin: 0;
 }
 .website {
-  font: normal 14px sans-serif;
+  font: italic 16px helvetica;
+  text-transform: capitalize;
   letter-spacing: 0.5px;
   display: block;
   cursor: pointer;
-  background-color: #313b3f;
-  color: #d9a74a;
+  color: #313b3f;
+  box-shadow: 1px 1px 3px 1px #313b3f;
+  background-color: rgb(216,166,82);
   padding: 10px;
   text-decoration: none;
   text-align: right;
