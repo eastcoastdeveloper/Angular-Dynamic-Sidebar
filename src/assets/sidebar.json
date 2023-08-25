@@ -3,13 +3,13 @@
     "linkText": "About",
     "parentLink": "/about",
     "menu": false,
-    "submenu": null
+    "submenu": []
   },
   {
     "linkText": "AngularJS SPA",
     "parentLink": "/angularjs-spa",
     "menu": false,
-    "submenu": null
+    "submenu": []
   },
   {
     "linkText": "Codepens",
