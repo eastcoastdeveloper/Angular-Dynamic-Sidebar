@@ -2,5 +2,5 @@ export class SidebarModel {
   linkText: string;
   parentLink: string;
   menu: boolean;
-  submenu: { childtext: string; link: string }[];
+  submenu: { childtext: string; link: string }[] | null;
 }
