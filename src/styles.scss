@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+}
+.website {
+  font: italic 16px helvetica;
+  letter-spacing: 0.5px;
+  display: block;
+  cursor: pointer;
+  color: #313b3f;
+  box-shadow: 1px 1px 3px 1px #313b3f;
+  background-color: rgb(216,166,82);
+  padding: 10px;
+  text-decoration: none;
+  text-align: right;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #313b3f;
+  padding: 5px 5px 1px 5px;
+  box-sizing: border-box;
+  width: 100%;
+  .icon-grid {
+    justify-content: center;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(3, 35px);
+    a {
+      width: 35px;
+      display: block;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
