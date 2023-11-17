@@ -88,3 +88,9 @@
 .show-menu {
   max-height: 1000px !important;
 }
+
+@media screen and (max-width: 768px) {
+  #dynamic-sidebar {
+    margin-top: 10px;
+  }
+}
