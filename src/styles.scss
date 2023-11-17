@@ -9,7 +9,7 @@ body {
   cursor: pointer;
   color: #313b3f;
   box-shadow: 1px 1px 3px 1px #313b3f;
-  background-color: rgb(216,166,82);
+  background-color: rgb(216, 166, 82);
   padding: 10px;
   text-decoration: none;
   text-align: right;
@@ -34,5 +34,12 @@ footer {
         width: 100%;
       }
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .website,
+  footer {
+    display: none;
   }
 }
