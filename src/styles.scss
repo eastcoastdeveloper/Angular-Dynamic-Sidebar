@@ -2,18 +2,6 @@ html,
 body {
   margin: 0;
 }
-.website {
-  font: italic 16px helvetica;
-  letter-spacing: 0.5px;
-  display: block;
-  cursor: pointer;
-  color: #313b3f;
-  box-shadow: 1px 1px 3px 1px #313b3f;
-  background-color: rgb(216, 166, 82);
-  padding: 10px;
-  text-decoration: none;
-  text-align: right;
-}
 
 @media screen and (max-width: 768px) {
   .website {
